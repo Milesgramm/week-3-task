@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Week 3 Assignment</title>
+      <link rel="stylesheet" href="CSS/main.css">
+    </head>
+    <body>   
+      <h2>Genesys Upskill Survey Form:</h2>
+      <form>
+        <section>
+            <label for="Name">Name:</label> <br>
+            <input type="text" id="Name" name="name" placeholder="Enter your name"> <br>
+            <label for="Email">Email:</label> <br>
+            <input type="email" id="user_email" name="email" placeholder="Enter your Email"><br>
+            <label for="Age">Age:</label><br>
+            <input type="Age" id="Age" name="Age" placeholder="Enter your Age"> <br>
+      </section>
+        <h3>Which option best describes you:</h3>
+          <select name="Self description">
+              <option value="Beggar">Beggar</option>
+              <option value="Theif">Theif</option>
+              <option value="Student" selected>Student</option>
+              <option value="Teacher">Teacher</option>
+              <option value="Joker">Joker</option>
+              <option value="Crazy">Crazy</option>
+          </select>
+        <h3>Would You Recommend Genesys Upskill to a Friend?</h3>
+        <div>
+          <input type="radio" id="Yes" name="ticket_type" value="Yes">
+          <label for="Yes">Yes</label><br>
+          <input type="radio" id="No" name="ticket_type" value="No">
+          <label for="No">No</label><br>
+          <input type="radio" id="Maybe" name="ticket_type" value="Maybe">
+          <label for="Maybe">Maybe</label>
+        </div>
+        <h3>Languages and frameworks known (check all that apply)</h3>
+        <div>
+          <input type="checkbox" id="C" name="topping" value="C">
+          <label for="C">C</label>
+        </div>
+        <div>
+          <input type="checkbox" id="C++" name="topping" value="C++">
+          <label for="C++">C++</label>
+        </div>
+        <div>
+          <input type="checkbox" id="C#" name="topping" value="C#">
+          <label for="C#">C#</label>
+        </div>
+        <div>
+          <input type="checkbox" id="JavaScript" name="topping" value="JavaScript">
+          <label for="JavaScript">JavaScript</label>
+        </div>
+        <div>
+          <input type="checkbox"id="React" name="topping" value="React">
+          <label for="React">React</label>
+        </div>
+        <div>
+          <input type="checkbox"id="Angular" name="topping" value="Angular">
+          <label for="Angular">Angular</label>
+        </div>
+        <div>
+          <input type="checkbox"id="Django" name="topping" value="Django">
+          <label for="Django">Django</label>
+        </div>
+        <div>
+          <input type="checkbox"id="Spring" name="topping" value="Spring">
+          <label for="Spring">Spring</label>
+        </div>
+      <h4> <i>Any comments or suggestions:</i></h4>
+      <textarea rows="5" cols="60">Write your comment here.</textarea>
+        <br>
+        <button type="submit">Submit</button>     
+      </form>
+      </body>
+</html>
